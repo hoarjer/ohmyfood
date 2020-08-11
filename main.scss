@@ -50,7 +50,7 @@ nav a{
     font-family: $font-primary;  
 }
 .link_menu p{
-    font-size: 1.5em;
+    font-size: 2em;
 }
 .link_menu h2{
     font-family: 'Caveat', cursive;
@@ -77,6 +77,9 @@ img{
     -webkit-background-clip: text;
     background-clip: text;
     font-family: 'Croissant One', cursive;
+}
+.chic_menu p{
+    font-size: 1.5em;
 }
 .chic_menu h2{
     color: rgb(199, 116, 18);
