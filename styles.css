@@ -1,6 +1,5 @@
 body {
   margin: auto;
-  display: block;
   font-size: 1em;
 }
 
@@ -47,7 +46,7 @@ nav a {
   align-items: center;
   width: 300px;
   height: 456px;
-  margin: 50px 20px 0 50px;
+  margin: 50px 50px 0 50px;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
 }
@@ -271,8 +270,19 @@ th {
     font-size: 0.8em;
   }
 
+  .bloc_page {
+    justify-content: center;
+  }
+
   nav {
-    width: 400px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+
+  nav a {
+    width: 90%;
   }
 
   .menu_container {
