@@ -1,0 +1,251 @@
+body {
+  margin: auto;
+  display: block;
+  font-size: 1em;
+}
+
+.bloc_page {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+  background-color: #579C87;
+  color: #FDCB46;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.3em;
+}
+
+header a {
+  color: #FDCB46;
+}
+
+nav {
+  width: 800px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+nav a {
+  box-shadow: 0 0 20px 10px #EBEBEB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 456px;
+  margin: 50px 20px 0 50px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.link_menu p {
+  font-size: 1.5em;
+}
+
+.note_menu, .note {
+  background-color: #FCDFDB;
+  color: #3c1218;
+  font-family: "Caveat", sans-serif;
+}
+
+.note_menu p {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+img {
+  width: 70px;
+  height: 60px;
+}
+
+.chic_menu, .chic {
+  background-color: #FFF5FE;
+}
+
+.chic_menu p, .chic_menu h3, .chic h3 {
+  background-image: linear-gradient(to right, #c67412, #6e4ccc);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.chic_menu h2 {
+  color: #c77412;
+}
+
+.delice_menu, .delice {
+  background-color: #F9F9F9;
+}
+
+.delice_menu p, .delice_menu h3, .delice h3 {
+  background-image: linear-gradient(to right, #0228dd, #229df9);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.delice_menu h2 {
+  color: #0887fb;
+}
+
+.palette_menu, .palette {
+  background-color: #FDFFFD;
+}
+
+.palette_menu p {
+  background-image: linear-gradient(to right, #4c636a, #bfff7e);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.palette_menu h2 {
+  color: #72bf56;
+}
+
+.palette_menu th {
+  font-size: 0.9em;
+}
+
+.link_soon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 50px auto 190px auto;
+  background-color: #579C87;
+  font-size: 2em;
+  text-decoration: none;
+  color: #FDCB46;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 60px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  background-color: #579C87;
+}
+
+footer a {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  font-size: 2.5em;
+  text-decoration: none;
+  color: #FDCB46;
+  font-family: "Montserrat", sans-serif;
+  margin: auto 40px;
+}
+
+main {
+  width: 1500px;
+  margin: auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_heading {
+  padding-top: 50px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+}
+
+.menu_container {
+  width: 750px;
+  margin: 0 auto 200px auto;
+  box-shadow: 0 0 20px 10px #EBEBEB;
+  font-size: 1.2em;
+  padding: 30px 0 150px 0;
+}
+
+.menu_container__heading {
+  font-size: 1.5em;
+}
+
+.section_heading {
+  display: flex;
+  margin: 30px auto 0 auto;
+  width: 85%;
+  padding: 0 10px 0 10px;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.section_heading img {
+  font-size: 0.5em;
+  width: 30%;
+  height: 15px;
+}
+
+.section_heading p {
+  font-size: 1.3em;
+}
+
+table {
+  width: 85%;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+th {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 10px;
+  font-size: 1.2em;
+}
+
+.top_chic, .top_chic p {
+  color: #c67412;
+}
+
+.middle_chic, .middle_chic p {
+  color: #a56799;
+}
+
+.bottom_chic, .bottom_chic p {
+  color: #6e4ccc;
+}
+
+.menu_container__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  margin-top: 50px;
+  height: 55px;
+}
+
+/*# sourceMappingURL=styles.css.map */
