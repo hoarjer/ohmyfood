@@ -73,6 +73,9 @@ nav a {
   margin: 50px 50px 0 50px;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu_cover {
@@ -89,6 +92,16 @@ nav a {
 .menu_cover h2 {
   font-family: "Caveat", cursive;
   font-size: 2em;
+}
+
+.menu_cover {
+  transform: scale(1);
+  opacity: 1;
+  transition: all 300ms;
+}
+.menu_cover:hover {
+  transform: scale(1.3);
+  opacity: 0.5;
 }
 
 .link_soon {
@@ -109,8 +122,11 @@ nav a {
 /***********************************************************************
 ** index note + menu note **********************************************
 ***********************************************************************/
-.note_cover, .note {
+.note_menu {
   background-color: #FCDFDB;
+}
+
+.note_cover, .note {
   color: #3c1218;
   font-family: "Caveat", cursive;
 }
@@ -135,9 +151,10 @@ nav a {
 /***********************************************************************
 ** index chic + menu chic **********************************************
 ***********************************************************************/
-.chic_cover {
+.menu_chic {
   background-color: #FFF5FE;
 }
+
 .chic_cover p {
   background-image: linear-gradient(to right, #c67412, #6e4ccc);
   color: transparent;
@@ -184,9 +201,10 @@ nav a {
 /***********************************************************************
 ** index delice + menu delice ******************************************
 ***********************************************************************/
-.delice_cover {
+.menu_delice {
   background-color: #EDEFEF;
 }
+
 .delice_cover p {
   background-image: linear-gradient(to right, #0228dd, #229df9);
   color: transparent;
@@ -212,9 +230,10 @@ nav a {
 /***********************************************************************
 ** index palette + menu palette ****************************************
 ***********************************************************************/
-.palette_cover {
+.menu_palette {
   background-color: #FDFFFD;
 }
+
 .palette_cover p {
   background-image: linear-gradient(to right, #4c636a, #bfff7e);
   color: transparent;
