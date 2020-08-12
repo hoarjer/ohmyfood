@@ -1,3 +1,7 @@
+@charset "UTF-8";
+/***********************************************************************
+** Général *************************************************************
+***********************************************************************/
 body {
   margin: auto;
   font-size: 1em;
@@ -29,6 +33,30 @@ header a {
   color: #FDCB46;
 }
 
+footer {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  background-color: #579C87;
+}
+footer a {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  font-size: 2em;
+  text-decoration: none;
+  color: #FDCB46;
+  font-family: "Montserrat", sans-serif;
+  margin: auto 40px;
+}
+
+/***********************************************************************
+** Général index *******************************************************
+***********************************************************************/
 nav {
   width: 78%;
   margin: auto;
@@ -40,10 +68,6 @@ nav {
 
 nav a {
   box-shadow: 0 0 20px 10px #EBEBEB;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 300px;
   height: 456px;
   margin: 50px 50px 0 50px;
@@ -51,85 +75,20 @@ nav a {
   font-family: "Montserrat", sans-serif;
 }
 
-.link_menu p {
+.menu_cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 456px;
+}
+.menu_cover p {
   font-size: 2em;
 }
-
-.link_menu h2 {
+.menu_cover h2 {
   font-family: "Caveat", cursive;
-}
-
-.note_menu, .note {
-  background-color: #FCDFDB;
-  color: #3c1218;
-  font-family: "Caveat", cursive;
-}
-
-.note_menu p {
-  font-weight: bold;
   font-size: 2em;
-}
-
-img {
-  width: 70px;
-  height: 60px;
-}
-
-.chic_menu, .chic {
-  background-color: #FFF5FE;
-}
-
-.chic_menu p, .chic h3 {
-  background-image: linear-gradient(to right, #c67412, #6e4ccc);
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-family: "Croissant One", cursive;
-}
-
-.chic_menu p {
-  font-size: 1.5em;
-}
-
-.chic_menu h2 {
-  color: #c77412;
-  font-family: serif;
-}
-
-.delice_menu, .delice, .delice h3 {
-  background-color: #EDEFEF;
-  font-family: "Dancing Script", cursive;
-}
-
-.delice_menu p, .delice_menu h3, .delice h3 {
-  background-image: linear-gradient(to right, #0228dd, #229df9);
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-}
-
-.delice_menu h2 {
-  color: #0887fb;
-}
-
-.palette_menu, .palette {
-  background-color: #FDFFFD;
-}
-
-.palette_menu p, .palette h3 {
-  background-image: linear-gradient(to right, #4c636a, #bfff7e);
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-family: "Kaushan Script", cursive;
-}
-
-.palette_menu h2 {
-  color: #72bf56;
-}
-
-.palette_menu th {
-  font-size: 0.9em;
 }
 
 .link_soon {
@@ -144,33 +103,164 @@ img {
   color: #FDCB46;
   font-family: "Montserrat", sans-serif;
   padding: 20px 60px;
+  width: 300px;
 }
 
-footer {
-  width: 100%;
-  height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  bottom: 0;
-  background-color: #579C87;
+/***********************************************************************
+** index note + menu note **********************************************
+***********************************************************************/
+.note_cover, .note {
+  background-color: #FCDFDB;
+  color: #3c1218;
+  font-family: "Caveat", cursive;
 }
-
-footer a {
-  display: flex;
-  align-items: center;
-  height: 60px;
+.note_cover p, .note p {
+  font-weight: bold;
   font-size: 2em;
-  text-decoration: none;
-  color: #FDCB46;
-  font-family: "Montserrat", sans-serif;
-  margin: auto 40px;
+}
+.note_cover img, .note img {
+  width: 70px;
+  height: 60px;
 }
 
+.note_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  margin-top: 50px;
+  height: 55px;
+}
+
+/***********************************************************************
+** index chic + menu chic **********************************************
+***********************************************************************/
+.chic_cover {
+  background-color: #FFF5FE;
+}
+.chic_cover p {
+  background-image: linear-gradient(to right, #c67412, #6e4ccc);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: "Croissant One", cursive;
+  font-size: 1.5em;
+}
+.chic_cover h2 {
+  color: #c77412;
+  font-family: serif;
+}
+
+.chic {
+  background-color: #FFF5FE;
+}
+.chic h3 {
+  background-image: linear-gradient(to right, #c67412, #6e4ccc);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: "Croissant One", cursive;
+}
+
+.chic section {
+  font-family: serif;
+  font-size: 0.8em;
+}
+
+.chic table {
+  width: 75%;
+}
+
+.chic .starter {
+  color: #c67412;
+}
+.chic .main_course {
+  color: #a56799;
+}
+.chic .dessert {
+  color: #6e4ccc;
+}
+
+/***********************************************************************
+** index delice + menu delice ******************************************
+***********************************************************************/
+.delice_cover {
+  background-color: #EDEFEF;
+}
+.delice_cover p {
+  background-image: linear-gradient(to right, #0228dd, #229df9);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: "Dancing Script", cursive;
+}
+.delice_cover h2 {
+  color: #0887fb;
+}
+
+.delice {
+  background-color: #EDEFEF;
+}
+.delice h3 {
+  background-image: linear-gradient(to right, #0228dd, #229df9);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: "Dancing Script", cursive;
+}
+
+/***********************************************************************
+** index palette + menu palette ****************************************
+***********************************************************************/
+.palette_cover {
+  background-color: #FDFFFD;
+}
+.palette_cover p {
+  background-image: linear-gradient(to right, #4c636a, #bfff7e);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: "Kaushan Script", cursive;
+}
+.palette_cover h2 {
+  color: #72bf56;
+}
+
+.palette {
+  background-color: #FDFFFD;
+}
+.palette h3 {
+  background-image: linear-gradient(to right, #4c636a, #bfff7e);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: "Kaushan Script", cursive;
+}
+
+/***********************************************************************
+** Général menus *******************************************************
+***********************************************************************/
 main {
   width: 100%;
   margin: auto;
+}
+main .main_heading {
+  padding-top: 50px;
+}
+main .main_heading h2 {
+  font-size: 2.5em;
+}
+
+.menu {
+  width: 800px;
+  margin: 0 auto 200px auto;
+  box-shadow: 0 0 20px 10px #EBEBEB;
+  font-size: 1.5em;
+  padding: 30px 0 150px 0;
+  font-family: "Caveat", cursive;
+}
+.menu .menu__heading {
+  font-size: 1.5em;
 }
 
 section {
@@ -180,34 +270,7 @@ section {
   align-items: center;
   font-family: "Caveat", cursive;
 }
-
-.chic section {
-  font-family: serif;
-  font-size: 0.8em;
-}
-
-.main_heading {
-  padding-top: 50px;
-}
-
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5em;
-}
-
-.menu_container {
-  width: 800px;
-  margin: 0 auto 200px auto;
-  box-shadow: 0 0 20px 10px #EBEBEB;
-  font-size: 1.5em;
-  padding: 30px 0 150px 0;
-}
-
-.menu_container__heading {
-  font-size: 1.5em;
-}
-
-.section_heading {
+section .section_heading {
   display: flex;
   margin: 30px auto 0 auto;
   width: 85%;
@@ -216,32 +279,23 @@ h2 {
   align-items: center;
   height: 50px;
 }
-
-.section_heading img {
+section .section_heading img {
   font-size: 0.5em;
   width: 30%;
   height: 15px;
 }
-
-.section_heading p {
+section .section_heading p {
   font-size: 1.3em;
-  font-weight: 500;
 }
 
 table {
   width: 85%;
 }
-
-.chic table {
-  width: 75%;
-}
-
-tr {
+table tr {
   display: flex;
   justify-content: space-between;
 }
-
-th {
+table tr th {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -250,27 +304,9 @@ th {
   text-align: left;
 }
 
-.top_chic, .top_chic p {
-  color: #c67412;
-}
-
-.middle_chic, .middle_chic p {
-  color: #a56799;
-}
-
-.bottom_chic, .bottom_chic p {
-  color: #6e4ccc;
-}
-
-.menu_container__footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.5em;
-  margin-top: 50px;
-  height: 55px;
-}
-
+/***********************************************************************
+** Responsive smartphone ***********************************************
+***********************************************************************/
 @media screen and (max-width: 768px) {
   body {
     font-size: 0.8em;
@@ -290,8 +326,16 @@ th {
     justify-content: center;
   }
 
-  .menu_container {
+  .link_soon {
+    width: 170px;
+  }
+
+  .menu {
     width: 100%;
+  }
+
+  .section_heading p {
+    font-size: 1em;
   }
 
   th {
