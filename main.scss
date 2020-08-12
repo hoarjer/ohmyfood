@@ -28,6 +28,7 @@ header{
     justify-content: center;
     align-items: center;
     font-size: 2.3em;
+    letter-spacing: -3px;
 }
 header a{
     color: $color-txt;
@@ -49,6 +50,7 @@ footer{
         text-decoration: none;
         color:$color-txt;
         font-family: $font-primary;
+        letter-spacing: -3px;
         margin: auto 40px;  
     }
 }
@@ -124,7 +126,6 @@ nav a{
     background-color: #FCDFDB;
 }
 .note_cover , .note{
-    
     color: rgb(60, 18, 24);
     font-family: 'Caveat', cursive;
     p{
@@ -143,6 +144,10 @@ nav a{
     font-size: 1.5em;
     margin-top: 50px;
     height: 55px;
+}
+.note{
+    background-color: #FCDFDB;
+
 }
 
 /***********************************************************************
@@ -322,6 +327,19 @@ table{
     }
 }
 
+/***********************************************************************
+** Mentions légales ***********************************************
+***********************************************************************/
+.txt{
+    width: 85%;
+    border: 1px solid black;
+    h4{
+
+    }
+    p{
+
+    }
+}
 /***********************************************************************
 ** Responsive smartphone ***********************************************
 ***********************************************************************/

@@ -27,6 +27,7 @@ header {
   justify-content: center;
   align-items: center;
   font-size: 2.3em;
+  letter-spacing: -3px;
 }
 
 header a {
@@ -51,6 +52,7 @@ footer a {
   text-decoration: none;
   color: #FDCB46;
   font-family: "Montserrat", sans-serif;
+  letter-spacing: -3px;
   margin: auto 40px;
 }
 
@@ -146,6 +148,10 @@ nav a {
   font-size: 1.5em;
   margin-top: 50px;
   height: 55px;
+}
+
+.note {
+  background-color: #FCDFDB;
 }
 
 /***********************************************************************
@@ -323,6 +329,13 @@ table tr th {
   text-align: left;
 }
 
+/***********************************************************************
+** Mentions légales ***********************************************
+***********************************************************************/
+.txt {
+  width: 85%;
+  border: 1px solid black;
+}
 /***********************************************************************
 ** Responsive smartphone ***********************************************
 ***********************************************************************/
