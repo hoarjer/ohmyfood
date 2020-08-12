@@ -1,6 +1,6 @@
-$color-primary: #579C87;
-$color-txt: #FDCB46;
-$font-primary: 'Montserrat', sans-serif;
+$bg-header-footer: #579C87;
+$color-header-footer: #FDCB46;
+$font-header-footer: 'Montserrat', sans-serif;
 
 /***********************************************************************
 ** Général *************************************************************
@@ -21,9 +21,9 @@ a{
 header{
 	width: 100%;
     height: 100px;
-    background-color: $color-primary;
-    color:$color-txt;
-    font-family: $font-primary;
+    background-color: $bg-header-footer;
+    color:$color-header-footer;
+    font-family: $font-header-footer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ header{
     letter-spacing: -3px;
 }
 header a{
-    color: $color-txt;
+    color: $color-header-footer;
 }
 footer{
 	width: 100%;
@@ -41,15 +41,15 @@ footer{
 	align-items: center;
 	position: fixed;
     bottom: 0;
-    background-color: $color-primary;
+    background-color: $bg-header-footer;
     a{
         display:flex;
         align-items: center;
         height: 60px;
         font-size: 2em;
         text-decoration: none;
-        color:$color-txt;
-        font-family: $font-primary;
+        color:$color-header-footer;
+        font-family: $font-header-footer;
         letter-spacing: -3px;
         margin: auto 40px;  
     }
@@ -73,7 +73,7 @@ nav a{
     height: 456px;
     margin: 50px 50px 0 50px;
     text-decoration: none;
-    font-family: $font-primary; 
+    font-family: $font-header-footer; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,11 +110,11 @@ nav a{
     justify-content: center;
 	border-radius: 20px;
     margin: 50px auto 190px auto;
-    background-color: $color-primary;
+    background-color: $bg-header-footer;
     font-size: 2em;
     text-decoration: none;
-    color:$color-txt;
-    font-family: $font-primary;
+    color:$color-header-footer;
+    font-family: $font-header-footer;
     padding: 20px 60px;
     width: 300px;
 }
@@ -126,7 +126,7 @@ nav a{
     background-color: #FCDFDB;
 }
 .note_cover , .note{
-    color: rgb(60, 18, 24);
+    color: #3C1218;
     font-family: 'Caveat', cursive;
     p{
         font-weight: bold;
@@ -147,7 +147,6 @@ nav a{
 }
 .note{
     background-color: #FCDFDB;
-
 }
 
 /***********************************************************************
@@ -167,14 +166,14 @@ nav a{
         font-size: 1.5em;
     }
     h2{
-        color: rgb(199, 116, 18);
+        color: #C77412;
         font-family: serif;
     }
 }
 .chic{
     background-color: #FFF5FE;
     h3{
-        background-image: linear-gradient(to right,rgb(198 116 18),rgb(110 76 204) );
+        background-image: linear-gradient(to right,#C77412,#6E4CCC );
         color: transparent;
         -webkit-background-clip: text;
         background-clip: text;
@@ -190,13 +189,13 @@ nav a{
 }
 .chic{
     .starter{
-    color:rgb(198 116 18) ;
+    color:#C77412 ;
     }
     .main_course{
-    color: rgb(165 103 153);
+    color: #A56799;
     }
     .dessert{
-    color: rgb(110 76 204);
+    color: #6E4CCC;
     }  
 }
 
@@ -209,7 +208,7 @@ nav a{
 .delice_cover{
     
     p {
-        background-image: linear-gradient(to right,rgb(2 40 221),rgb(34 157 249) );
+        background-image: linear-gradient(to right,#0228DD,#229DF9 );
         color: transparent;
         -webkit-background-clip: text;
         background-clip: text;
@@ -222,7 +221,7 @@ nav a{
 .delice{
     background-color: #EDEFEF;
     h3{
-        background-image: linear-gradient(to right,rgb(2 40 221),rgb(34 157 249) );
+        background-image: linear-gradient(to right,#0228DD,#229DF9 );
         color: transparent;
         -webkit-background-clip: text;
         background-clip: text;
@@ -239,7 +238,7 @@ nav a{
 .palette_cover{
     
     p{
-        background-image: linear-gradient(to right,rgb(76 99 106),rgb(191 255 126) );
+        background-image: linear-gradient(to right,#4C636A,#BFFF7E );
         color: transparent;
         -webkit-background-clip: text;
         background-clip: text;
@@ -252,7 +251,7 @@ nav a{
 .palette {
     background-color: #FDFFFD;
     h3{
-        background-image: linear-gradient(to right,rgb(76 99 106),rgb(191 255 126) );
+        background-image: linear-gradient(to right,#4C636A,#BFFF7E );
         color: transparent;
         -webkit-background-clip: text;
         background-clip: text;

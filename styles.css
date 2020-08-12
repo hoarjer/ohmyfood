@@ -129,7 +129,7 @@ nav a {
 }
 
 .note_cover, .note {
-  color: #3c1218;
+  color: #3C1218;
   font-family: "Caveat", cursive;
 }
 .note_cover p, .note p {
@@ -170,7 +170,7 @@ nav a {
   font-size: 1.5em;
 }
 .chic_cover h2 {
-  color: #c77412;
+  color: #C77412;
   font-family: serif;
 }
 
@@ -178,7 +178,7 @@ nav a {
   background-color: #FFF5FE;
 }
 .chic h3 {
-  background-image: linear-gradient(to right, #c67412, #6e4ccc);
+  background-image: linear-gradient(to right, #C77412, #6E4CCC);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -195,13 +195,13 @@ nav a {
 }
 
 .chic .starter {
-  color: #c67412;
+  color: #C77412;
 }
 .chic .main_course {
-  color: #a56799;
+  color: #A56799;
 }
 .chic .dessert {
-  color: #6e4ccc;
+  color: #6E4CCC;
 }
 
 /***********************************************************************
@@ -212,7 +212,7 @@ nav a {
 }
 
 .delice_cover p {
-  background-image: linear-gradient(to right, #0228dd, #229df9);
+  background-image: linear-gradient(to right, #0228DD, #229DF9);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -226,7 +226,7 @@ nav a {
   background-color: #EDEFEF;
 }
 .delice h3 {
-  background-image: linear-gradient(to right, #0228dd, #229df9);
+  background-image: linear-gradient(to right, #0228DD, #229DF9);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -241,7 +241,7 @@ nav a {
 }
 
 .palette_cover p {
-  background-image: linear-gradient(to right, #4c636a, #bfff7e);
+  background-image: linear-gradient(to right, #4C636A, #BFFF7E);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -255,7 +255,7 @@ nav a {
   background-color: #FDFFFD;
 }
 .palette h3 {
-  background-image: linear-gradient(to right, #4c636a, #bfff7e);
+  background-image: linear-gradient(to right, #4C636A, #BFFF7E);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
