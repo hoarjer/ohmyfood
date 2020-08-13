@@ -464,17 +464,23 @@ table{
     nav{
         width: 100%;
         align-items: center;
-        justify-content: center;
-        
+        justify-content: center;  
     }
+    .link_menu p{
+            font-size: 2.5em;
+        }
+    .chic_menu p{
+        font-size: 1.7em;
+    }
+    
     .link_soon{
         width: 280px;
     }
     .menu{
-    width: 100%;
+        width: 100%;
     }
     .section_heading p{
-        font-size: 1em;
+        font-size: 2em;
     }
     th{
         text-align: left;
