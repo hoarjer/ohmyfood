@@ -490,6 +490,11 @@ table{
         width: 100%;
         align-items: center;
         justify-content: center;  
+        margin: auto;
+        a{
+            width: 300px;
+            margin: 40px 0 40px 0;
+        }
     }
     .link_menu p{
             font-size: 2.5em;
