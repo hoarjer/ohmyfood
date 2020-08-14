@@ -221,10 +221,8 @@ section .section_heading {
   align-items: center;
   height: 50px;
 }
-section .section_heading img {
-  font-size: 0.5em;
+section .section_heading .line, section .section_heading img {
   width: 30%;
-  height: 15px;
 }
 section .section_heading .text_underline p {
   font-size: 1.3em;
@@ -267,9 +265,11 @@ table tr th {
   font-weight: bold;
   font-size: 2em;
 }
-.note_cover img, .note img {
-  width: 70px;
-  height: 60px;
+.note_cover i, .note i {
+  font-size: 2.5em;
+  background: linear-gradient(to right, #f04c5f, #f6916a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .note_footer {
@@ -280,12 +280,17 @@ table tr th {
   margin-top: 50px;
   height: 55px;
 }
+.note_footer h4 {
+  margin-left: 10px;
+}
 
 .note {
   background-color: #FCDFDB;
 }
-.note .underline {
+.note .line, .note .underline {
   background-color: #3C1218;
+  border-radius: 24% 75% 85% 94%;
+  height: 6px;
 }
 
 /***********************************************************************

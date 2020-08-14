@@ -223,10 +223,8 @@ section{
         justify-content: space-between;
         align-items: center;
         height: 50px;
-        img{
-            font-size: 0.5em;
+        .line , img{
             width: 30%;
-            height: 15px;
         }
         .text_underline{
             p{
@@ -274,9 +272,11 @@ table{
         font-weight: bold;
         font-size: 2em;
     }
-    img{
-        width: 70px;
-        height: 60px;
+    i{
+        font-size: 2.5em;
+        background: linear-gradient(to right,rgb(240 76 95),rgb(246 145 106) );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
 .note_footer{
@@ -286,11 +286,17 @@ table{
     font-size: 1.5em;
     margin-top: 50px;
     height: 55px;
+    h4{
+        margin-left: 10px;
+    }
 }
 .note{
     background-color: #FCDFDB;
-    .underline{
+    .line , .underline{
         background-color: #3C1218;
+        border-radius: 24% 75% 85% 94%;
+        height: 6px;
+        
     }
 }
 
