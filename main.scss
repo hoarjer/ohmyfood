@@ -138,7 +138,7 @@ nav a{
 }
 
 .loading{
-    width: 40px;
+    width: 45px;
     height:15px ;
     margin-right: 20px;
     display: flex;
@@ -169,19 +169,17 @@ nav a{
         transform: translateY(0) scale(0.5);
     }
 }
-.link_soon{
-    &:hover {    
-        .dot_1{
-            animation: dot 900ms linear infinite;
-        } 
-        .dot_2{
-            animation: dot 900ms 333ms linear infinite;
-        } 
-        .dot_3{
-            animation: dot 900ms 666ms linear infinite;
-        } 
-    }
-}    
+   
+.dot_1{
+    animation: dot 1200ms linear infinite;
+} 
+.dot_2{
+    animation: dot 1200ms 333ms linear infinite;
+} 
+.dot_3{
+    animation: dot 1200ms 666ms linear infinite;
+} 
+    
 
 /***********************************************************************
 ** Général menus *******************************************************
@@ -225,7 +223,6 @@ section{
         height: 50px;
         .line , img{
             width: 30%;
-<<<<<<< HEAD
         }
         .text_underline{
             p{
@@ -237,9 +234,6 @@ section{
                 height: 2px;
                 margin: 0;
             }
-              
-=======
->>>>>>> animations
         }
     }
 }
