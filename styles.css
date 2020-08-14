@@ -73,7 +73,7 @@ footer :hover {
 ** Général index *******************************************************
 ***********************************************************************/
 nav {
-  width: 800px;
+  width: 900px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -83,9 +83,9 @@ nav {
 
 nav a {
   box-shadow: 0 0 20px 10px #EBEBEB;
-  width: 300px;
+  width: 350px;
   height: 456px;
-  margin: 50px 50px 0 50px;
+  margin: 50px 0px 0 50px;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   display: flex;
