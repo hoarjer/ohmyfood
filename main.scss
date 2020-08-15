@@ -102,11 +102,11 @@ nav a{
     width: 300px;
     height: 456px;
     p{
-        font-size: 2em;
+        font-size: 2.5em;
     }
     h2{
         font-family: 'Caveat', cursive;
-        font-size: 2em;
+        font-size: 2.5em;
     }
 }
 
@@ -284,18 +284,36 @@ table{
 .note_menu{
     background-color:#FCDFDB;
 }
-.note_cover , .note{
+.note_cover{
     color: #3C1218;
     font-family: 'Caveat', cursive;
     p{
         font-weight: bold;
-        font-size: 2em;
+        font-size: 2.5em;
+    }
+    i{
+        font-size: 3.5em;
+        background: linear-gradient(to right,rgb(240 76 95),rgb(246 145 106) );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-top: 30px;
+        margin-bottom: -20px;
+    }
+}
+.note{
+    color: #3C1218;
+    font-family: 'Caveat', cursive;
+    p{
+        font-weight: bold;
+        font-size: 2.5em;
     }
     i{
         font-size: 2.5em;
         background: linear-gradient(to right,rgb(240 76 95),rgb(246 145 106) );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        padding-top: 30px;
+        margin-bottom: -20px;
     }
 }
 .note_footer{
@@ -333,7 +351,7 @@ table{
         -webkit-background-clip: text;
         background-clip: text;
         font-family: 'Croissant One', cursive; 
-        font-size: 1.3em;
+        font-size: 1.6em;
     }
     h2{
         color: #C77412;
@@ -497,7 +515,7 @@ table{
         }
     }
     .link_menu p{
-            font-size: 2.5em;
+            font-size: 2.8em;
         }
     .chic_menu p{
         font-size: 1.7em;
@@ -505,6 +523,7 @@ table{
     
     .link_soon{
         width: 280px;
+        margin: 0 auto 100px auto;
     }
     .menu{
         width: 100%;

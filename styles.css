@@ -102,11 +102,11 @@ nav a {
   height: 456px;
 }
 .menu_cover p {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 .menu_cover h2 {
   font-family: "Caveat", cursive;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .menu_cover {
@@ -276,19 +276,38 @@ table tr th {
   background-color: #FCDFDB;
 }
 
-.note_cover, .note {
+.note_cover {
   color: #3C1218;
   font-family: "Caveat", cursive;
 }
-.note_cover p, .note p {
+.note_cover p {
   font-weight: bold;
-  font-size: 2em;
+  font-size: 2.5em;
 }
-.note_cover i, .note i {
+.note_cover i {
+  font-size: 3.5em;
+  background: linear-gradient(to right, #f04c5f, #f6916a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 30px;
+  margin-bottom: -20px;
+}
+
+.note {
+  color: #3C1218;
+  font-family: "Caveat", cursive;
+}
+.note p {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+.note i {
   font-size: 2.5em;
   background: linear-gradient(to right, #f04c5f, #f6916a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-top: 30px;
+  margin-bottom: -20px;
 }
 
 .note_footer {
@@ -325,7 +344,7 @@ table tr th {
   -webkit-background-clip: text;
   background-clip: text;
   font-family: "Croissant One", cursive;
-  font-size: 1.3em;
+  font-size: 1.6em;
 }
 .chic_cover h2 {
   color: #C77412;
@@ -481,7 +500,7 @@ table tr th {
   }
 
   .link_menu p {
-    font-size: 2.5em;
+    font-size: 2.8em;
   }
 
   .chic_menu p {
@@ -490,6 +509,7 @@ table tr th {
 
   .link_soon {
     width: 280px;
+    margin: 0 auto 100px auto;
   }
 
   .menu {
