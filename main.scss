@@ -86,7 +86,7 @@ nav a{
     box-shadow: 0 0 20px 10px #EBEBEB;
     width: 350px;
     height: 456px;
-    margin: 50px 0px 0 50px;
+    margin: 80px auto 0px auto;
     text-decoration: none;
     font-family: $font-header-footer; 
     display: flex;
@@ -189,8 +189,6 @@ main{
 	width: 100%;
     margin: auto;
     .main_heading{
-        
-        border: 1px solid black;
         h2{
             font-size: 2.5em;
             margin: 30px auto 50px auto;
@@ -223,7 +221,6 @@ section{
         justify-content: space-between;
         align-items: center;
         height: 50px;
-        border: 1px solid black;
         .line , img{
             width: 30%;
         }
@@ -327,7 +324,7 @@ table{
     margin-top: 50px;
     height: 55px;
     h4{
-        margin-left: 10px;
+        padding: 40px 0 0 10px;
     }
 }
 .note{
@@ -489,9 +486,6 @@ table{
     h4{
         font-size: 1.5em;
     }
-    p{
-
-    }
 }
 /***********************************************************************
 ** Responsive smartphone ***********************************************
@@ -512,9 +506,10 @@ table{
         align-items: center;
         justify-content: center;  
         margin: auto;
+        display: block;
         a{
             width: 300px;
-            margin: 30px 0 30px 0;
+            margin: 30px auto 30px auto;
         }
     }
     .link_menu p{
