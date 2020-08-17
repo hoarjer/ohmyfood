@@ -483,6 +483,7 @@ table{
 .txt{
     width: 800px;
     margin: auto;
+    font-size: 1.2em;
     text-align: left;
     margin-bottom: 70px;
     h4{
@@ -533,6 +534,9 @@ table{
     }
     th{
         text-align: left;
+    }
+    .txt{
+        width: 300px;
     }
     footer{
         font-size: 0.9em;
