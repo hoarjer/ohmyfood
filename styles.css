@@ -465,6 +465,7 @@ table tr th {
 .txt {
   width: 800px;
   margin: auto;
+  font-size: 1.2em;
   text-align: left;
   margin-bottom: 70px;
 }
@@ -523,6 +524,10 @@ table tr th {
 
   th {
     text-align: left;
+  }
+
+  .txt {
+    width: 300px;
   }
 
   footer {
