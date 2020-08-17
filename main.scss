@@ -124,7 +124,7 @@ nav a{
     display: flex;
     justify-content:center;
 	border-radius: 20px;
-    margin: 0px auto 190px auto;
+    margin: 0px auto 120px auto;
     background-color: $bg-header-footer;
     font-size: 2em;
     text-decoration: none;
@@ -207,7 +207,7 @@ main{
         font-size: 1.5em;
     }
 }
-section{
+.section{
 	display: flex;
     justify-content: center;
     flex-direction: column;
@@ -368,7 +368,7 @@ table{
         font-family: 'Croissant One', cursive; 
     }
 }
-.chic section{
+.chic .section{
     font-family: serif;
     font-size: 0.8em;
 }
@@ -389,6 +389,8 @@ table{
        }
     }
     .dessert{
+    font-family: serif;
+    font-size: 1em;    
     color: #6E4CCC;
     .underline{
         background-color: #6E4CCC;
