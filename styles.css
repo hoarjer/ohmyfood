@@ -123,7 +123,7 @@ nav a {
   display: flex;
   justify-content: center;
   border-radius: 20px;
-  margin: 50px auto 190px auto;
+  margin: 0px auto 190px auto;
   background-color: #579C87;
   font-size: 2em;
   text-decoration: none;
@@ -189,10 +189,11 @@ main {
   margin: auto;
 }
 main .main_heading {
-  padding-top: 50px;
+  border: 1px solid black;
 }
 main .main_heading h2 {
   font-size: 2.5em;
+  margin: 30px auto 50px auto;
 }
 
 .menu {
@@ -216,12 +217,13 @@ section {
 }
 section .section_heading {
   display: flex;
-  margin: 30px auto 0 auto;
+  margin: 30px auto 10px auto;
   width: 85%;
   padding: 0 10px 0 10px;
   justify-content: space-between;
   align-items: center;
   height: 50px;
+  border: 1px solid black;
 }
 section .section_heading .line, section .section_heading img {
   width: 30%;
@@ -496,7 +498,7 @@ table tr th {
   }
   nav a {
     width: 300px;
-    margin: 40px 0 40px 0;
+    margin: 30px 0 30px 0;
   }
 
   .link_menu p {
