@@ -509,6 +509,10 @@ table tr th {
     font-size: 1.7em;
   }
 
+  h3 {
+    font-size: 1em;
+  }
+
   .link_soon {
     width: 280px;
     margin: 0 auto 100px auto;
