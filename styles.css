@@ -340,7 +340,6 @@ table tr th {
   background-image: linear-gradient(to right, #c67412, #6e4ccc);
   color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
   font-family: "Croissant One", cursive;
   font-size: 1.6em;
 }
@@ -356,7 +355,6 @@ table tr th {
   background-image: linear-gradient(to right, #C77412, #6E4CCC);
   color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
   font-family: "Croissant One", cursive;
 }
 
@@ -400,7 +398,6 @@ table tr th {
   background-image: linear-gradient(to right, #0228DD, #229DF9);
   color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
   font-family: "Dancing Script", cursive;
 }
 .delice_cover h2 {
@@ -414,7 +411,6 @@ table tr th {
   background-image: linear-gradient(to right, #0228DD, #229DF9);
   color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
   font-family: "Dancing Script", cursive;
 }
 .delice .starter .underline {
@@ -438,7 +434,6 @@ table tr th {
   background-image: linear-gradient(to right, #4C636A, #BFFF7E);
   color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
   font-family: "Kaushan Script", cursive;
 }
 .palette_cover h2 {
@@ -452,7 +447,6 @@ table tr th {
   background-image: linear-gradient(to right, #4C636A, #BFFF7E);
   color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
   font-family: "Kaushan Script", cursive;
 }
 .palette .underline {
